@@ -4,6 +4,7 @@ import ChatColumn from './components/ChatColumn';
 import { postRagChat, postGenerateCommand } from './services/apiService';
 
 function App() {
+  console.log("ChatColumn:", "ChatColumn");
   return (
     <div className="app-container">
       <header className="app-header">
