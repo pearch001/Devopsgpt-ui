@@ -1,7 +1,7 @@
 // src/services/apiService.js
 
 // IMPORTANT: Make sure your Spring Boot backend is running!
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://devopsgpt-67d70d9926e2.herokuapp.com/api';
 
 // A single ID for our chat session for simplicity in this demo.
 const SESSION_ID = `session_${Date.now()}`;
