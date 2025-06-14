@@ -25,7 +25,7 @@ export const postRagChat = async (message) => {
 
     const data = await response.json();
     // The backend now returns an object with a 'reply' field
-    return data.reply;
+    return data.response;
   } catch (error) {
     console.error("Error in RAG Chat API call:", error);
     return "❌ Whoops! Couldn't connect to the backend. Is it running?";
